@@ -1,0 +1,82 @@
+label{
+    font-size: 14pt;
+    display: block;
+    margin: left 70px;
+}
+
+body{
+    background-color: rgb(153, 153, 153);
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+    margin-left: 50px;
+}
+
+h1{
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+
+#cadastro{
+    padding: 15px;
+    height: 550px;
+    width: 450px;
+    background-color: white;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 5px;
+}
+
+#rm{
+    padding: 7px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+#nome{
+    padding: 7px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+
+#email{
+    padding: 7px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+
+#senha{
+    padding: 7px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+
+#cpf{
+    padding: 7px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+
+
+#botao{
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 300px;
+    background-color: rgb(110, 218, 110);
+    color:white;
+    padding: 10px;   
+}
