@@ -5,9 +5,9 @@ $aluno = new Aluno();
 $con = $aluno->conectar();
 
 if( $con ){
-    $al = $aluno->consulta("kiky@gmail.com");
+    $al = $aluno->consultar("kiky@gmail.com");
     if(!$al ){
-        $aluno->cadastrar(4368, "Quiteria", "kiky@gmail.com", "000.111.222-33");
+        $aluno->cadastrar(4368, "Quiteria", "kiky@gmail.com", "1234" ,"000.111.222-33");
     }else{
         echo "<script>alert('Esse aluno já está cadastrado')</script>";
     }

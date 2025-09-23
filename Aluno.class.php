@@ -65,13 +65,14 @@ class Aluno{
         $this->cpf = $cpf;
     }
 
-    public function cadastrar($rm, $nome, $email, $cpf){
-        $sql = "INSERT INTO aluno set rm = :r, nome = :n, email = :e, cpf = :c";
+    public function cadastrar($rm, $nome, $email, $senha, $cpf){
+        $sql = "INSERT INTO aluno set rm = :r, nome = :n, email = :e, senha =: s cpf = :c";
 
         $sql = $this->pdo->prepare($sql);
 
         $sql->bindValue(":r", $rm);
         $sql-> bindValue(":n", $nome);
+        $sql-> bindValue(":s", $senha);
         $sql-> bindValue(":e", $email);
         $sql-> bindValue(":c", $cpf);
 
