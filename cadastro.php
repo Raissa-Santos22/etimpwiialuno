@@ -18,8 +18,6 @@
             <input type="text" name= "nome" id="nome" placeholder = "Nome" require >
             <label for="email"></label>
             <input type="text" name="email" id="email" placeholder = "Email" require>
-            <label for="senha"></label>
-            <input type="text" name="senha" id="senha" placeholder = "Senha " require>
             <label for="cpf"> </label>
             <input type="text" name="cpf" id="cpf" placeholder = "CPF " require>
             <input type="submit" value="Cadastrar" id="cadastrar">

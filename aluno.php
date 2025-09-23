@@ -14,3 +14,4 @@ if( $con ){
 } else{
     echo"<script>alert('Sem conexão com o banco. Tente novamente mais tarde')<script>";
 }
+
